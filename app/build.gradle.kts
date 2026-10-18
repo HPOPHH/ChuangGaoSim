@@ -1,0 +1,64 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+android {
+    namespace = "com.hpophh.chuanggaosim"
+    compileSdk = 35
+
+    defaultConfig {
+        applicationId = "com.hpophh.chuanggaosim"
+        minSdk = 21
+        targetSdk = 35
+        versionCode = 14020
+        versionName = "1.4.2"
+
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        ndk {
+            // 如果只有 arm64-v8a 的 so 文件,就只打包這個架構
+            // 如果你的設備是其他架構,需要添加對應的 so 文件
+            abiFilters += listOf("arm64-v8a")
+        }
+    }
+
+    signingConfigs {
+        getByName("debug") {
+            enableV1Signing = true
+            enableV2Signing = true
+        }
+    }
+
+    buildTypes {
+        release {
+            isMinifyEnabled = false
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
+        }
+    }
+
+    sourceSets {
+        getByName("main") {
+            jniLibs.srcDirs("src/main/jniLibs")
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
+}
+
+dependencies {
+
+    implementation(libs.appcompat)
+    implementation(libs.material)
+    implementation(libs.activity)
+    implementation(libs.constraintlayout)
+    implementation(libs.okhttp)
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.ext.junit)
+    androidTestImplementation(libs.espresso.core)
+}

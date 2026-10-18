@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>刷跑步 - 登录</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="login">
+<div class="page">
+    <div class="card hero">
+        <div class="eyebrow">ChuangGaoSim · Web Console</div>
+        <h1>先登录，再生成跑步结构体</h1>
+        <p class="muted">应用启动会优先检查本地持久化的 JWT 是否存在且未过期；如果无效，这里会引导你进入统一认证。</p>
+        <div id="loginStatus" class="status info">正在检查登录状态...</div>
+        <div class="actions">
+            <button id="loginButton" class="primary" type="button">前往统一认证登录</button>
+            <button id="dualLoginButton" class="primary" type="button">和官方版同时登录（需ROOT）</button>
+            <button id="refreshStatusButton" class="secondary" type="button">重新检查</button>
+        </div>
+        <p class="tips">登录完成后会自动返回工作页。</p>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
+
