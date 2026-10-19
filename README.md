@@ -2,7 +2,7 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/HPOPHH/ChuangGaoSim?style=social)](https://github.com/HPOPHH/ChuangGaoSim/stargazers)
 
-An open-source Android workout workbench for **Chuanggao Sports (cgapp)**. It implements the app's network protocol (login, request signing, workout data upload) as a standalone app, giving you a fully **manual, controllable** way to generate and submit workout records.
+An open-source Android workout workbench for **Chuanggao Sports (cgapp)**. It implements the app's network protocol (login, request signing, workout data upload) as a standalone app, giving you a fully **manual, controllable** way to generate and submit workout records,and it is avaliable for nk/zd/cd.
 
 [中文说明](README.zh-CN.md)
 
