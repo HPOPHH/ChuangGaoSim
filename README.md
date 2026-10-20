@@ -58,7 +58,7 @@ Field-for-field aligned with the official app — including the traps:
 
 ## Build
 #### Currently, only Li Ke Sports Stadium coordinate data is supported
-If you want to use the gps data from Jinnan Main Stadium&Balitai Stadium, please send an email to **ny4tzbpe@anonaddy.me** Come and pay to obtain!（very cheap,only 6RMB）
+If you want to use the gps data from Jinnan Main Stadium&Balitai Stadium, please send an email to **ny4tzbpe@anonaddy.me** Come and pay to obtain!（very cheap,only 10RMB）
 Requires JDK 17 and Android SDK 35.
 
 ```bash
@@ -70,7 +70,7 @@ Output: `app/build/outputs/apk/debug/app-debug.apk`
 For release signing, copy `keystore.properties.example` to `keystore.properties` and fill in your own keystore. Pushing a `v*` tag triggers the GitHub Actions build workflow.
 
 ## well-done apk app
-If you do not know how to use source code and want a well-done apk, email me(ny4tzbpe@anonaddy.me).(You need to pay,but it's cheap,only 6RMB)
+If you do not know how to use source code and want a well-done apk, email me(ny4tzbpe@anonaddy.me).(You need to pay,but it's cheap,only 10RMB)
 ## School configuration
 
 Server and CAS endpoints are currently hardcoded:
