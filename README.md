@@ -57,6 +57,7 @@ Field-for-field aligned with the official app — including the traps:
 `POST api/l/v6/uploadpic` as `multipart/form-data`: one part per image named after the file (`application/octet-stream`), plus `xh` / `sportId` / `images` form parts (image names comma-terminated). Order: **submit the record first** (`savesports`), then upload the photo — the server binds the file to the existing record and rewrites `sportImages` itself.
 
 ## Build
+#### Currently, only Li Ke Sports Stadium coordinate data is supported
 If you want to use the gps data from Jinnan Main Stadium&Balitai Stadium, please send an email to **ny4tzbpe@anonaddy.me** Come and pay to obtain!（very cheap,only 6RMB）
 Requires JDK 17 and Android SDK 35.
 
