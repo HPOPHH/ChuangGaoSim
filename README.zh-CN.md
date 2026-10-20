@@ -28,6 +28,7 @@ ChuangGaoSim 是一个面向**创高体育（cgapp）**的开源 Android 运动�
 - **照片上传**：`uploadpic` multipart，文件 part 以文件名命名（`application/octet-stream`），先 `savesports` 建记录再传图，服务端自动重命名并绑定
 
 ### 构建
+#### **目前只支持li ke体育场坐标数据** 
 若想使用jinnan主体育场&balitai体育场的坐标数据，请发送email至**ny4tzbpe@anonaddy.me**付费获取。(十分便宜（6r）)
 JDK 17 + Android SDK 35：
 
