@@ -58,9 +58,16 @@ ChuangGaoSim/
 ├── app/src/main/jniLibs/arm64-v8a/        # 修补后的签名 SO（arm64）
 └── .github/workflows/                     # tag 触发的自动构建
 ```
+
+### 应用预览
+<p align="center">
+  <img src="images/1.jpg" alt="app" width="300">
+  <img src="images/2.jpg" alt="app" width="300">
+</p>
+
 ### 来源致谢
 
-基于 **某不愿提及姓名的开发者** 的思路与部分实现重构而来，感谢原作者。
+基于 **某不愿提及姓名的开发者**（已授权） 的思路与部分实现重构而来，感谢原作者。
 同时感谢各类开源工具与 glm-5.3-flash 模型的帮助。
 
 ### Star History
