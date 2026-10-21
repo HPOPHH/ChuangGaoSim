@@ -83,3 +83,5 @@ ChuangGaoSim/
 ### 许可证
 
 [MIT](LICENSE)
+
+## 欢迎提交pr和issues！
