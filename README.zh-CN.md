@@ -29,7 +29,7 @@ ChuangGaoSim 是一个面向**创高体育（cgapp）**的开源 Android 运动�
 
 ### 构建
 #### **目前只支持li ke体育场坐标数据** 
-若想使用jinnan主体育场&balitai体育场的坐标数据，请发送email至**ny4tzbpe@anonaddy.me**付费获取。(十分便宜（6r）)
+若想使用jinnan主体育场&balitai体育场的坐标数据（当前li ke数据可用），请发送email至**ny4tzbpe@anonaddy.me**付费获取。(十分便宜（6-10r）)
 JDK 17 + Android SDK 35：
 
 ```bash
@@ -38,7 +38,7 @@ JDK 17 + Android SDK 35：
 
 Release 签名：复制 `keystore.properties.example` 为 `keystore.properties` 并填入自己的签名配置；推送 `v*` tag 触发 GitHub Actions 自动构建。
 ### 构建好的apk软件
-如果你不知道如何使用源代码，想要开箱即用的apk，给我发电子邮件 **ny4tzbpe@anonaddy.me** 。（你需要付费，但很便宜（6r））
+如果你不知道如何使用源代码，想要开箱即用的apk，给我发电子邮件 **ny4tzbpe@anonaddy.me** 。（你需要付费，但很便宜（6-10r））
 ### 学校配置
 
 服务器与 CAS 地址默认，见：
