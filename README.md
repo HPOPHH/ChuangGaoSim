@@ -92,6 +92,11 @@ ChuangGaoSim/
 ├── app/src/main/jniLibs/arm64-v8a/        # signing .so (arm64)
 └── .github/workflows/                     # tag-triggered CI build
 ```
+## Preview photos
+<img width="1260" height="2800" alt="e80fdf69307c4841759ec1651ed83765" src="https://github.com/user-attachments/assets/26c56f12-208e-4ab4-a42d-0cb8da7a84ef" />
+<img width="1260" height="2800" alt="206e74516705bf27557e30ba9fc290c3" src="https://github.com/user-attachments/assets/a67f43df-359c-471c-990a-00f99b9cc71f" />
+Result(Not bad huh?)
+<img width="488" height="736" alt="6a1b63933ef3b89165531d0c4cab5d72" src="https://github.com/user-attachments/assets/2b230342-07b7-4331-93b6-2ca5178fd57e" />
 
 ## Credits
 
